@@ -1,5 +1,5 @@
 import Button from "../components/Button.jsx";
-/* eslint-disable-next-line no-unused-vars */
+
 const navItems = [
   {
     label: "About",

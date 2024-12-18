@@ -4,7 +4,7 @@ import image3 from '../assests/images/project-3.jpg'
 import image4 from '../assests/images/project-4.jpg'
 import image5 from '../assests/images/project-5.jpg'
 
-/* eslint-disable-next-line no-unused-vars */
+
 const projects = [
   {
     name: "Artisan Brew Co.",

@@ -2,7 +2,7 @@ import image1 from '../assests/images/testimonial-1.jpg';
 import image2 from '../assests/images/testimonial-2.jpg';
 import image3 from '../assests/images/testimonial-3.jpg';
 
-/* eslint-disable-next-line no-unused-vars */
+
 const testimonials = [
   {
     name: "Sarah Chen",
