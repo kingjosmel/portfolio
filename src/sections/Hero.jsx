@@ -13,14 +13,19 @@ const Hero = () => {
           {/*div for the buttons*/}
 
           <div className={'flex flex-col mt-10 items-start gap-6 md:flex-row md:items-center'}>
-            <Button variant='secondary' iconAfter={<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                                        strokeWidth="1.5" stroke="currentColor"
-                                                        className="size-5">
-              <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 5.25 7.5 7.5 7.5-7.5m-15 6 7.5 7.5 7.5-7.5"/>
-            </svg>}><span>View my work</span>
+            <Button
+                variant="secondary"
+                iconAfter={
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-5">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 5.25 7.5 7.5 7.5-7.5m-15 6 7.5 7.5 7.5-7.5" />
+                  </svg>
+                }
 
+            >
+              <span> <a href={'#projects'} >View my work</a> </span>
             </Button>
-            <Button variant='text'>Let&apos;s talk</Button>
+
+            <Button variant='text'> <a href={'#footer'} >Let&apos;s talk</a> </Button>
           </div>
 
         </div>

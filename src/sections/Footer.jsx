@@ -2,15 +2,15 @@ import Button from "../components/Button.jsx";
 
 const Footer= () => {
   return (
-  <footer className={'section h-screen bg-black text-white'}>
+  <footer className={'section h-screen bg-black text-white'} id={'footer'}>
     <div className={'container grid md:grid-cols-12'}>
 
     {/*grid system*/}
     <div className={'md:col-span-8 lg:col-span-5'}>
 
-      <div className={'flex items-center mb-6 gap-4 '}>
-        <div className={'size-2.5 bg-green-500 rounded-full font-light'}></div>
-        <p className={' tracking-wide text-xl'}>one spot available for next month</p>
+      <div className={'flex gap-4 items-center'}>
+        <div className={'w-3 h-3 bg-green-500 rounded-full '}></div>
+        <p className={' tracking-wide text-xl font-light'}>one spot available for next month</p>
       </div>
 
     <h2 className={'text-4xl mb-6 font-light md:text-7xl lg:text-7xl lg:leading-23'}>Enough talk. let&apos;s make something great together.</h2>
@@ -19,7 +19,12 @@ const Footer= () => {
                                                                              strokeWidth="1.5"
                                                                              stroke="currentColor" className="size-5">
       <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"/>
-    </svg>}>
+    </svg>}
+            onClick={() =>
+                (window.location = 'mailto:josmeleph@gmail.com?subject=Hello&body=I am reaching out!')
+            }
+    >
+
       josmeleph@gmail.com
       <span>
 
